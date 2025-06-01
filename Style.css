@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+}
+
+img {
+    height: 600px;
+    width: 100%;
+}
+
+body {
+    background-color: #070d29;
+}
+
+.Gambar-container {
+    position: relative;
+    display: inline-block;
+}
+
+.Gambar-container img {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.tmbl-about-us {
+    margin-left: 5%;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 138%;
+    right: 40%;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: solid #12e1b9 2px;
+    cursor: auto;
+    background-color: rgb(0, 0, 0, 0);
+    color: #12e1b9;
+    font-size: 20px;
+    width: 250.3px;
+    height: 40px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.tmbl-about-us:hover {
+    background-color: rgb(0, 0, 81);
+    color: rgb(0, 0, 207);
+}
+
+
+.tmbl-project {
+    font-family: 'JetBrains Mono', monospace;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 138%;
+    right: 17.5%;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: solid #12e1b9 2px;
+    cursor: auto;
+    background-color: rgb(0, 0, 0, 0);
+    color: #12e1b9;
+    font-size: 20px;
+    width: 250.3px;
+    height: 40px;
+}
+
+.tmbl-project:hover {
+    background-color: rgb(0, 0, 81);
+    color: rgb(0, 0, 207);
+}
+
+.tmbl-founder {
+    font-family: 'JetBrains Mono', monospace;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 150%;
+    right: 40%;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: solid #12e1b9 2px;
+    cursor: auto;
+    background-color: rgb(0, 0, 0, 0);
+    color: #12e1b9;
+    font-size: 20px;
+    width: 250.3px;
+    height: 40px;
+}
+
+.tmbl-founder:hover {
+    background-color: rgb(0, 0, 81);
+    color: rgb(0, 0, 207);
+}
+
+.tmbl-partner {
+    font-family: 'JetBrains Mono', monospace;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 150%;
+    right: 17.5%;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: solid #12e1b9 2px;
+    cursor: auto;
+    background-color: rgb(0, 0, 0, 0);
+    color: #12e1b9;
+    font-size: 20px;
+    width: 250.3px;
+    height: 40px;
+}
+
+.tmbl-partner:hover {
+    background-color: rgb(0, 0, 81);
+    color: rgb(0, 0, 207);
+}
+
+.kotak1 {
+    background-color: #25bec8;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 110%;
+    right: 2%;
+}
+
+.kotak2 {
+    background-color: #b8ee73;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 112.5%;
+    right: 8%;
+}
+
+.kotak3 {
+    border: solid #f2dd1e 2px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 117.5%;
+    right: 5.5%;
+}
+
+svg {
+    width: 80%;
+    max-width: 400px;
+}
+
+.jantung {
+    background-color: #f2dd1e;
+    width: 30%;
+    height: 5px;
+    position: absolute;
+    top: 150%;
+    left: 5%;
+}
+
+.garis1 {
+    background-color: #f2dd1e;
+    width: 5px;
+    height: 300px;
+    position: absolute;
+    top: 116.5%;
+    left: 100px;
+}
+
+.garis2 {
+    background-color: #f2dd1e;
+    width: 5px;
+    height: 280px;
+    position: absolute;
+    top: 125%;
+    left: 130px;
+}
+
+
+@media (max-width: 100%) {
+    .tmbl-about-us {
+        top: 138%;
+        right: 50%;
+    }
+
+    .tmbl-founder {
+        top: 25%;
+        right: 8%;
+    }
+
+    .tmbl-partner {
+        top: 150%;
+        right: 17.5%;
+    }
+
+    .tmbl-project {
+        top: 138%;
+        right: 17.5%;
+    }
+}
+
+.kotakjntg {
+    background-color: #f2dd1e;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 160%;
+    left: 350px;
+}
+
+.kotakjntg1 {
+    background-color: #f2dd1e;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 160%;
+    left: 250px;
+}
